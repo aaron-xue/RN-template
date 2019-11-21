@@ -9,12 +9,17 @@
     "test": "jest",
     "lint": "eslint .",
     "link": "react-native link",
-    "upgrade": "react-native upgrade"
+    "upgrade": "react-native upgrade",
+    "postinstall": "jetify -r"
   },
   "dependencies": {
     "react": "16.9.0",
     "react-native": "0.61.4",
-    "react-native-code-push": "^5.7.0"
+    "react-native-code-push": "^5.7.0",
+    "react-native-gesture-handler": "^1.5.0",
+    "react-native-reanimated": "^1.4.0",
+    "react-native-screens": "^2.0.0-alpha.11",
+    "react-navigation": "^4.0.10"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
