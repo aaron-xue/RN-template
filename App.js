@@ -9,7 +9,8 @@
 import React, { Component } from 'react';
 import {
   StyleSheet,
-  AppState
+  AppState,
+  StatusBar
 } from 'react-native';
 import AppContainer from './navigation/navigators.js';
 import CodePush from 'react-native-code-push'
@@ -34,7 +35,7 @@ class App extends Component {
     });
   }
   render() {
-    return <AppContainer />;
+    return <AppContainer screenProps={{ statusBarHeight: StatusBar.currentHeight}}/>;
   }
 }
 
