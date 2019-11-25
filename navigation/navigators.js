@@ -13,7 +13,6 @@ let headerCon = {
     mode: 'card',
     headerMode: 'screen',
     defaultNavigationOptions: ({ navigation, screenProps }) => {
-        console.log(screenProps)
         return {
             headerTintColor: '#fff',
             headerTitleStyle: {
